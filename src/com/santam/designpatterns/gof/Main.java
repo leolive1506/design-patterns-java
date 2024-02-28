@@ -1,5 +1,6 @@
 package com.santam.designpatterns.gof;
 
+import com.santam.designpatterns.gof.infra.facede.Facede;
 import com.santam.designpatterns.gof.infra.singleton.SingletonEager;
 import com.santam.designpatterns.gof.infra.singleton.SingletonLazy;
 import com.santam.designpatterns.gof.infra.singleton.SingletonLazyHolder;
@@ -37,5 +38,10 @@ public class Main {
         robo.mover();
         robo.setStrategy(agressivo);
         robo.mover();
+        System.out.println();
+
+        // facede
+        Facede facede = new Facede();
+        facede.migrarCliente("Leonardo", "12431423");
     }
 }
