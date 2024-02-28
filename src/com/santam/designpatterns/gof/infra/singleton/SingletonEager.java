@@ -1,4 +1,4 @@
-package com.santam.designpatterns.gof.infra;
+package com.santam.designpatterns.gof.infra.singleton;
 
 // singlaton "apressado"
 public class SingletonEager {

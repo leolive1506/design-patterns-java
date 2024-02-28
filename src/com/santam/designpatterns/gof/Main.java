@@ -1,8 +1,8 @@
 package com.santam.designpatterns.gof;
 
-import com.santam.designpatterns.gof.infra.SingletonEager;
-import com.santam.designpatterns.gof.infra.SingletonLazy;
-import com.santam.designpatterns.gof.infra.SingletonLazyHolder;
+import com.santam.designpatterns.gof.infra.singleton.SingletonEager;
+import com.santam.designpatterns.gof.infra.singleton.SingletonLazy;
+import com.santam.designpatterns.gof.infra.singleton.SingletonLazyHolder;
 
 public class Main {
     public static void main(String[] args) {

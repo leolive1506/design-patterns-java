@@ -1,4 +1,4 @@
-package com.santam.designpatterns.gof.infra;
+package com.santam.designpatterns.gof.infra.singleton;
 
 // num primeiro momento não disponibiliza a instancia para usuaŕio
 public class SingletonLazy {

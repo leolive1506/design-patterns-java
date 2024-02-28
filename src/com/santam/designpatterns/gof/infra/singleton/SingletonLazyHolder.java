@@ -1,4 +1,4 @@
-package com.santam.designpatterns.gof.infra;
+package com.santam.designpatterns.gof.infra.singleton;
 
 /**
  * @see <a href="https://stackoverflow.com/a/24018148">Referencia</a>
